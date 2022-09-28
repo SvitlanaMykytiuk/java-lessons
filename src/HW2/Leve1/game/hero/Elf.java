@@ -1,4 +1,4 @@
-package HW2.game.hero;
+package HW2.Leve1.game.hero;
 
 public class Elf {
     private int size;
