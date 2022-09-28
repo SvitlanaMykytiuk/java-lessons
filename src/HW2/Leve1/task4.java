@@ -6,8 +6,8 @@ public class task4 {
         int b = 500;
         int sum = a + b;
         int disc = 100;
-        int sum2 = sum - disc;
-        System.out.println( "Сумма покупки: " + sum2 );
+        int sumwithdisc = sum - disc;
+        System.out.println( "Сумма покупки: " + sumwithdisc );
         System.out.println( "Скидка: " + disc );
 
     }
