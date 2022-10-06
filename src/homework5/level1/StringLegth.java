@@ -9,7 +9,7 @@ public class StringLegth {
 
     public static void main(String[] args) {
         StringLegth stringLength = new StringLegth();
-        Scanner scan = new Scanner(System.in);
+        Scanner scaner = new Scanner(System.in);
         String string = scan.nextLine();
         System.out.println(stringLength.isStringMoreThan10(string));
     }

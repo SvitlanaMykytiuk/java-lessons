@@ -12,8 +12,8 @@ public class Number {
 
         Number number = new Number();
         Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
-        System.out.println(number.isDividedFor7and5(num));
+        int numer = scan.nextInt();
+        System.out.println(number.isDividedFor7and5(numer));
 
     }
 
