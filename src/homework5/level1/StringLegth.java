@@ -1,0 +1,16 @@
+package homework5.level1;
+
+import java.util.Scanner;
+
+public class StringLegth {
+    boolean isStringMoreThan10 (String string){
+        return string.length() > 10;
+    }
+
+    public static void main(String[] args) {
+        StringLegth stringLength = new StringLegth();
+        Scanner scan = new Scanner(System.in);
+        String string = scan.nextLine();
+        System.out.println(stringLength.isStringMoreThan10(string));
+    }
+}
