@@ -10,7 +10,7 @@ public class Buying {
         Buying buying = new Buying();
         boolean isEdekaOpen = true;
         boolean isReweOpen = true;
-        System.out.println("Я могу купить еду, это " + buying.CanBuy(isEdekaOpen, isReweOpen));
+        System.out.println("Я могу купить еду, это правда " + buying.CanBuy(isEdekaOpen, isReweOpen));
 
     }
 
