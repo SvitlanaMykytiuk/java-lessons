@@ -6,7 +6,6 @@ public class Money {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int amount = scanner.nextInt();
-        String cash;
         int thousands = amount / 1_000;
         int hundreds = (amount % 1_000) / 100;
         int dozens = ((amount % 1_000) % 100) / 10;
