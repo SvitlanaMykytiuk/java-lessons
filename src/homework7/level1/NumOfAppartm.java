@@ -14,6 +14,6 @@ public class NumOfAppartm {
             System.out.println("Подъезд номер 2");
         } else if (numOfApp > 48 && numOfApp <= 90) {
             System.out.println("Подъезд номер 3");
-        } else System.out.println("В этом доме нет такой квартиры");
+        } else System.out.println("В этом доме нет такой квартиры ");
     }
 }

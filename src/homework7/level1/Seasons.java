@@ -9,19 +9,19 @@ public class Seasons {
 
         switch (num){
             case 1:
-                System.out.println("зима");
+                System.out.println("Зима");
                 break;
             case 2:
-                System.out.println("весна");
+                System.out.println("Весна");
                 break;
             case 3:
-                System.out.println("лето");
+                System.out.println("Лето");
                 break;
             case 4:
-                System.out.println("осень");
+                System.out.println("Осень");
                 break;
             default:
-                System.out.println("некорректно введено число");
+                System.out.println("Некорректно введено число");
         }
     }
 }

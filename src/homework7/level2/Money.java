@@ -13,7 +13,7 @@ public class Money {
         if (amount == 0) {
             System.out.println("0 долларов");
         } else if (amount < 0 || amount > 9_999) {
-            System.out.println("некорректно введенная сумма");
+            System.out.println("Некорректно введенная сумма");
         } else {
 
             switch (thousands) {

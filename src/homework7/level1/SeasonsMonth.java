@@ -8,19 +8,19 @@ public class SeasonsMonth {
         int month = scanner.nextInt();
         switch (month){
             case 1, 2, 12:
-                System.out.println("зима");
+                System.out.println("Зима");
                 break;
             case 3, 4, 5:
-                System.out.println("весна");
+                System.out.println("Весна");
                 break;
             case 6, 7, 8:
-                System.out.println("лето");
+                System.out.println("Лето");
                 break;
             case 9, 10, 11:
-                System.out.println("осень");
+                System.out.println("Осень");
                 break;
             default:
-                System.out.println("некорректно введено число");
+                System.out.println("Некорректно введено число");
         }
     }
 }
